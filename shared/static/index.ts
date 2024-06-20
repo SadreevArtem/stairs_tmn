@@ -134,72 +134,72 @@ export const files = [
     alt: "stairs",
     id: 1,
     name: "stairs",
-    path: "/images/stairs1.jpg"
+    path: "/images/stairs1.JPG"
   },
   {
     alt: "stairs",
     id: 2,
     name: "stairs",
-    path: "/images/stairs2.jpg"
+    path: "/images/stairs2.JPG"
   },
   {
     alt: "stairs",
     id: 3,
     name: "stairs",
-    path: "/images/stairs3.jpg"
+    path: "/images/stairs3.JPG"
   },
   {
     alt: "stairs",
     id: 4,
     name: "stairs",
-    path: "/images/stairs4.jpg"
+    path: "/images/stairs4.JPG"
   },
   {
     alt: "stairs",
     id: 5,
     name: "stairs",
-    path: "/images/stairs5.jpg"
+    path: "/images/stairs5.JPG"
   },
   {
     alt: "stairs",
     id: 6,
     name: "stairs",
-    path: "/images/stairs6.jpg"
+    path: "/images/stairs6.JPG"
   },
   {
     alt: "stairs",
     id: 7,
     name: "stairs",
-    path: "/images/stairs7.jpg"
+    path: "/images/stairs7.JPG"
   },
   {
     alt: "stairs",
     id: 8,
     name: "stairs",
-    path: "/images/stairs8.jpg"
+    path: "/images/stairs8.JPG"
   },
   {
     alt: "stairs",
     id: 9,
     name: "stairs",
-    path: "/images/stairs9.jpg"
+    path: "/images/stairs9.JPG"
   },
   {
     alt: "stairs",
     id: 10,
     name: "stairs",
-    path: "/images/stairs10.jpg"
+    path: "/images/stairs10.JPG"
   },
   {
     alt: "stairs",
     id: 11,
     name: "stairs",
-    path: "/images/stairs11.jpg"
+    path: "/images/stairs11.JPG"
   },
   {
     alt: "stairs",
     id: 12,
     name: "stairs",
-    path: "/images/stairs12.jpg"
+    path: "/images/stairs12.JPG"
   }
 ]
