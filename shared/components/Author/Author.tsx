@@ -14,7 +14,7 @@ export const Author = () => {
             <Image
               width={560}
               height={750}
-              src="/stairs_A.JPG"
+              src="/stairsA.jpg"
               alt="лестница"
               className="top-0 left-0 right-0 bottom-0"
             />
@@ -27,7 +27,7 @@ export const Author = () => {
             <Image
               width={560}
               height={750}
-              src="/stairs_A.JPG"
+              src="/stairsA.jpg"
               alt="лестница"
               className="top-0 left-0 right-0 bottom-0"
             />
