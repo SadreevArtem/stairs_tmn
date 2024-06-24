@@ -1,3 +1,5 @@
 User-agent: *
-Disallow: /
+Allow: /
+Host: https://mpkrus.ru
+Sitemap: https://mpkrus.ru/sitemap.xml
 
