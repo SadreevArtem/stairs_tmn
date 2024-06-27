@@ -5,4 +5,5 @@ export type IconType =
   | "star-filled"
   | "close"
   | "chevron-right"
-  | "social-youtube";
+  | "social-youtube"
+  | "phone";

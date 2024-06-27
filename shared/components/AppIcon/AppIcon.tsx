@@ -30,6 +30,9 @@ const StarFilled = dynamic(
 const Close = dynamic(() => import("./components/Close").then((module) => module.Close), {
   ssr: false
 });
+const Phone = dynamic(() => import("./components/Phone").then((module) => module.Phone), {
+  ssr: false
+});
 const ChevronRight = dynamic(
   () => import("./components/ChevronRight").then((module) => module.ChevronRight),
   {
@@ -50,6 +53,7 @@ const icons: Record<IconType, (className: string) => ReactNode> = {
   "social-youtube": (className) => <SocialYoutube className={className} />,
   "star-filled": (className) => <StarFilled className={className} />,
   close: (className) => <Close className={className} />,
+  phone: (className) => <Phone className={className} />,
   "chevron-right": (className) => <ChevronRight className={className} />,
   
 };
