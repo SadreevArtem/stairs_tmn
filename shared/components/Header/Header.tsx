@@ -65,7 +65,7 @@ export const Header: React.FC = () => {
           className="w-fit bg-[#bda070] p-3 rounded-[32px] border-primary"
         >
           <AppIcon type="phone" className="inline pr-2 w-8 h-8" />
-          +7 (982) 989 52 09
+          {"+7 (982) 989 52 09"}
         </Link>
       </div>
       <div className="w-full h-[2px] bg-gray-200 my-2 md:my-6 opacity-50" />
