@@ -58,7 +58,7 @@ export const Header: React.FC = () => {
           </ul>
         </nav>
       </div>
-      <div className="md:hidden flex items-center flex-col text-lg gap-4">
+      <div className="md:hidden flex items-center flex-col text-lg gap-4 w-full">
         <p className="block">{'МПК "Русь"'}</p>
         <Link
           href={`tel:+79829895209`}
