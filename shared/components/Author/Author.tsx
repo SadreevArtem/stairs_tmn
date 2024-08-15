@@ -34,12 +34,12 @@ export const Author = () => {
           </div>
         </div>
         <div className="w-[50%] ml-[60px] pt-[100px] max-md:pt-[45px] max-md:ml-[20px] max-md:w-full">
-          <h1 className="md:text-[60px] max-md:text-xl max-md:mb-2">
-            Изготовление лестниц
+          <h1 className="md:text-[40px] max-md:text-xl max-md:mb-2">
+            Производство и установка лестниц под ключ в Тюмени
           </h1>
           <ul className="list-disc pl-4 text-xl flex flex-col gap-2 max-md:text-base w-full">
             <li>
-              <h2>мapшевыx</h2>
+              <h3>мapшевыx</h3>
             </li>
             <li>
               <h3>пoвopoтныx Г-обpазныx</h3>

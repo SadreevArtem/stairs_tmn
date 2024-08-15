@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { scrolltoHash } from "@/shared/lib";
 import { AppIcon } from "../AppIcon";
+import { useRouter } from "next/navigation";
 
 export const Header: React.FC = () => {
+  const router = useRouter();
   return (
     <header className={"md:mt-6 mt-2"}>
       <div
@@ -25,7 +27,7 @@ export const Header: React.FC = () => {
             <li>
               <div
                 className="header-link"
-                onClick={() => scrolltoHash("price")}
+                onClick={() => router.push("/about")}
               >
                 О НАС
               </div>

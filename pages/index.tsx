@@ -1,8 +1,7 @@
-import { Arimo, Bitter, Fira_Sans, Inter } from "next/font/google";
+import { Bitter } from "next/font/google";
 import { Author } from "@/shared/components/Author/Author";
 import { AppAccordionGroup } from "@/shared/components/AppAccordionGroup/AppAccordionGroup";
-import { accordeonItems, files, MetaData, reviews } from "@/shared/static";
-import { ReviewsBlock } from "@/shared/components/ReviewsBlock/ReviewsBlock";
+import { accordeonItems, files, MetaData } from "@/shared/static";
 import { Contacts } from "@/shared/components/Contacts/Contacts";
 import { AppHead } from "@/shared/components/AppHead";
 import { ImageGallery } from "@/shared/components/ImageGallery";
@@ -12,7 +11,7 @@ const inter = Bitter({ subsets: ['latin'] });
 export default function Home() {
   return (
     <>
-      <AppHead title={MetaData.title} description={MetaData.description} />
+      <AppHead title={MetaData.title} description={MetaData.description} keywords="лестницы продажа цена Тюмень"/>
 
       <div className={`flex flex-col justify-between ${inter.className}`}>
         <Author />

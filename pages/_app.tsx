@@ -5,7 +5,7 @@ import type { AppProps } from "next/app";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <script
+      {/* <script
         dangerouslySetInnerHTML={{
           __html: `
           (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -31,7 +31,7 @@ export default function App({ Component, pageProps }: AppProps) {
             alt=""
           />
         </div>
-      </noscript>
+      </noscript> */}
       <BaseLayout>
         <Component {...pageProps} />
       </BaseLayout>
