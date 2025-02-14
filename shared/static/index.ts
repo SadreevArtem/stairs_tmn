@@ -1,7 +1,9 @@
 export const MetaData = {
-  title: "Производство, изготовление и установка лестниц | Лестницы для дома. Доставка в Тюмени",
-  description: "Продажа и производство, изготовление лестниц в Тюмени - под заказ по низким ценам. Доставка, монтаж, гарантия!",
-}
+  title:
+    "Производство, изготовление и установка лестниц | Лестницы для дома. Доставка в Тюмени",
+  description:
+    "Продажа и производство, изготовление лестниц в Тюмени - под заказ по низким ценам. Доставка, монтаж, гарантия!",
+};
 
 export const accordeonItems = [
   {
@@ -16,7 +18,7 @@ export const accordeonItems = [
       "⁃ <strong>Лестницы на швеллере</strong> - прочные и надежные конструкции, подходящие для различных помещений.",
       "⁃ <strong>Лестницы на косоуре</strong> - элегантные и современные, прекрасно вписываются в любой интерьер.",
       "⁃ <strong>Винтовые лестницы</strong> - компактные и эстетичные, идеально подходят для небольших помещений.",
-      "⁃ <strong>Лестницы 'гусиный шаг'</strong> - эффективное решение для узких пространств и помещений с ограниченной высотой."
+      "⁃ <strong>Лестницы 'гусиный шаг'</strong> - эффективное решение для узких пространств и помещений с ограниченной высотой.",
     ],
   },
   {
@@ -130,76 +132,220 @@ export const reviews = [
 ];
 
 export const files = [
-{
+  {
     alt: "stairs",
     id: 1,
     name: "stairs",
-    path: "/images/stairs1.JPG"
+    path: "/images/stairs1.JPG",
   },
   {
     alt: "stairs",
     id: 2,
     name: "stairs",
-    path: "/images/stairs2.JPG"
+    path: "/images/stairs2.JPG",
   },
   {
     alt: "stairs",
     id: 3,
     name: "stairs",
-    path: "/images/stairs3.JPG"
+    path: "/images/stairs3.JPG",
   },
   {
     alt: "stairs",
     id: 4,
     name: "stairs",
-    path: "/images/stairs4.JPG"
+    path: "/images/stairs4.JPG",
   },
   {
     alt: "stairs",
     id: 5,
     name: "stairs",
-    path: "/images/stairs5.JPG"
+    path: "/images/stairs5.JPG",
   },
   {
     alt: "stairs",
     id: 6,
     name: "stairs",
-    path: "/images/stairs6.JPG"
+    path: "/images/stairs6.JPG",
   },
   {
     alt: "stairs",
     id: 7,
     name: "stairs",
-    path: "/images/stairs7.JPG"
+    path: "/images/stairs7.JPG",
   },
   {
     alt: "stairs",
     id: 8,
     name: "stairs",
-    path: "/images/stairs8.JPG"
+    path: "/images/stairs8.JPG",
   },
   {
     alt: "stairs",
     id: 9,
     name: "stairs",
-    path: "/images/stairs9.JPG"
+    path: "/images/stairs9.JPG",
   },
   {
     alt: "stairs",
     id: 10,
     name: "stairs",
-    path: "/images/stairs10.JPG"
+    path: "/images/stairs10.JPG",
   },
   {
     alt: "stairs",
     id: 11,
     name: "stairs",
-    path: "/images/stairs11.JPG"
+    path: "/images/stairs11.JPG",
   },
   {
     alt: "stairs",
     id: 12,
     name: "stairs",
-    path: "/images/stairs12.JPG"
-  }
-]
+    path: "/images/stairs12.JPG",
+  },
+  {
+    alt: "stairs",
+    id: 13,
+    name: "stairs",
+    path: "/images/stairs13.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 14,
+    name: "stairs",
+    path: "/images/stairs14.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 15,
+    name: "stairs",
+    path: "/images/stairs15.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 16,
+    name: "stairs",
+    path: "/images/stairs16.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 17,
+    name: "stairs",
+    path: "/images/stairs17.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 18,
+    name: "stairs",
+    path: "/images/stairs18.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 19,
+    name: "stairs",
+    path: "/images/stairs19.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 20,
+    name: "stairs",
+    path: "/images/stairs20.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 21,
+    name: "stairs",
+    path: "/images/stairs21.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 22,
+    name: "stairs",
+    path: "/images/stairs22.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 23,
+    name: "stairs",
+    path: "/images/stairs23.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 24,
+    name: "stairs",
+    path: "/images/stairs24.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 25,
+    name: "stairs",
+    path: "/images/stairs25.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 26,
+    name: "stairs",
+    path: "/images/stairs26.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 27,
+    name: "stairs",
+    path: "/images/stairs27.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 28,
+    name: "stairs",
+    path: "/images/stairs28.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 29,
+    name: "stairs",
+    path: "/images/stairs29.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 30,
+    name: "stairs",
+    path: "/images/stairs30.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 31,
+    name: "stairs",
+    path: "/images/stairs31.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 32,
+    name: "stairs",
+    path: "/images/stairs32.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 33,
+    name: "stairs",
+    path: "/images/stairs33.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 34,
+    name: "stairs",
+    path: "/images/stairs34.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 35,
+    name: "stairs",
+    path: "/images/stairs35.jpeg",
+  },
+  {
+    alt: "stairs",
+    id: 36,
+    name: "stairs",
+    path: "/images/stairs36.jpeg",
+  },
+];
