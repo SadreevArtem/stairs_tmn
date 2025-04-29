@@ -5,15 +5,21 @@ import { accordeonItems, files, MetaData } from "@/shared/static";
 import { Contacts } from "@/shared/components/Contacts/Contacts";
 import { AppHead } from "@/shared/components/AppHead";
 import { ImageGallery } from "@/shared/components/ImageGallery";
+import { Navigation } from "@/shared/components/Navigation/Navigation";
 
-const inter = Bitter({ subsets: ['latin'] });
+const inter = Bitter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
-      <AppHead title={MetaData.title} description={MetaData.description} keywords="лестницы продажа цена Тюмень"/>
+      <AppHead
+        title={MetaData.title}
+        description={MetaData.description}
+        keywords="лестницы продажа цена Тюмень"
+      />
 
       <div className={`flex flex-col justify-between ${inter.className}`}>
+        <Navigation />
         <Author />
         <div className="md:mt-[60px] mt-8">
           <AppAccordionGroup
