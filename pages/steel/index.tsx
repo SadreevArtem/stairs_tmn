@@ -40,7 +40,7 @@ export default function Second() {
                   <Image
                     width={560}
                     height={750}
-                    src="/images/stairs11.jpg"
+                    src="/images/stairs11.JPG"
                     alt="лестница"
                     className="top-0 left-0 right-0 bottom-0"
                   />
@@ -53,7 +53,7 @@ export default function Second() {
                   <Image
                     width={560}
                     height={750}
-                    src="/images/stairs11.jpg"
+                    src="/images/stairs11.JPG"
                     alt="лестница"
                     className="top-0 left-0 right-0 bottom-0"
                   />
