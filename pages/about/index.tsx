@@ -1,7 +1,9 @@
 import { AppHead } from "@/shared/components/AppHead";
 import { InfoCards } from "@/shared/components/InfoCards";
 import { Bitter } from "next/font/google";
+
 const inter = Bitter({ subsets: ["latin"] });
+
 export default function About() {
   const MetaData = {
     title: "МПК Русь - производство и установка лестниц в Тюмени",

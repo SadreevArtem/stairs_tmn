@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const inter = Bitter({ subsets: ["latin"] });
 
-export default function Second() {
+export default function Concrete() {
   const MetaData = {
     title: "Бетонные Лестницы в загородный частный дом в Тюмени | МПК Русь",
     description:
