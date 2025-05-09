@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const inter = Bitter({ subsets: ["latin"] });
 
-export default function Second() {
+export default function Wood() {
   const MetaData = {
     title:
       "Деревянные лестницы в Тюмени — Изготовление и Продажа Под Заказ | МПК Русь",
