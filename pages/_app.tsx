@@ -1,6 +1,7 @@
 import { BaseLayout } from "@/layouts/BaseLayout/BaseLayout";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
+import Script from "next/script";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -32,6 +33,31 @@ export default function App({ Component, pageProps }: AppProps) {
           />
         </div>
       </noscript> */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+
+(function(w, d, s, o){
+  var j = d.createElement(s); j.async = true; j.src = '//script.marquiz.ru/v2.js';j.onload = function() {
+    if (document.readyState !== 'loading') Marquiz.init(o);
+    else document.addEventListener("DOMContentLoaded", function() {
+      Marquiz.init(o);
+    });
+  };
+  d.head.insertBefore(j, d.head.firstElementChild);
+})(window, document, 'script', {
+    host: '//quiz.marquiz.ru',
+    region: 'ru',
+    id: '682074f9f9beb50019de655f',
+    autoOpen: false,
+    autoOpenFreq: 'once',
+    openOnExit: false,
+    disableOnMobile: false
+  }
+);
+    `,
+        }}
+      />
       <BaseLayout>
         <Component {...pageProps} />
       </BaseLayout>
